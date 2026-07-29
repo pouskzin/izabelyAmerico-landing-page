@@ -1,36 +1,73 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 💅 Izabely Américo | Nail Designer - Landing Page Premium
 
-## Getting Started
+![Next.js](https://img.shields.io/badge/Next.js-14-black?style=for-the-badge&logo=next.js)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white)
 
-First, run the development server:
+Landing Page de alto padrão desenvolvida para o estúdio de Nail Design da Izabely Américo. O projeto foi arquitetado com foco em **conversão**, **performance** e uma **estética de luxo** (Off-White e Dourado), proporcionando uma experiência de agendamento fluida e sem atritos para os clientes.
+
+🔗 **Acesse o projeto online:** [Insira o link da Vercel aqui]
+
+---
+
+## ✨ Funcionalidades Principais
+
+- **Design de Alta Conversão (UI/UX):** Layout minimalista e sofisticado utilizando conceitos de *Glassmorphism* e *Mobile-first*.
+- **Catálogo de Serviços Dinâmico:** Exibição clara de serviços com separação inteligente de valores (Aplicação vs. Manutenção).
+- **Integração Inteligente com WhatsApp:** Botões de CTA dinâmicos que redirecionam o cliente para o WhatsApp já com uma mensagem pré-formatada informando o serviço desejado.
+- **Galeria de Portfólio Otimizada:** Grid de imagens em alta resolução otimizado pelo componente `next/image` para máxima performance e Core Web Vitals.
+- **Micro-interações e Animações:** Transições de tela, reveal no scroll e botões pulsantes implementados com Framer Motion.
+- **Formulário de Captura de Leads:** Sistema seguro de formulário com validação de dados em tempo real.
+- **Acessibilidade e SEO:** Estruturação semântica, meta tags configuradas dinamicamente e alto contraste (WAI-ARIA).
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+O projeto foi construído utilizando as mais modernas tecnologias do ecossistema front-end:
+
+- **Framework:** [Next.js 14 (App Router)](https://nextjs.org/)
+- **Linguagem:** [TypeScript](https://www.typescriptlang.org/)
+- **Estilização:** [Tailwind CSS](https://tailwindcss.com/)
+- **Animações:** [Framer Motion](https://www.framer.com/motion/)
+- **Ícones:** [Lucide React](https://lucide.dev/)
+- **Componentes Acessíveis:** [Radix UI](https://www.radix-ui.com/)
+- **Validação de Formulários:** [React Hook Form](https://react-hook-form.com/) + [Zod](https://zod.dev/)
+
+---
+
+## 🚀 Como Executar o Projeto Localmente
+
+Para clonar e rodar esta aplicação em sua máquina, você precisará do [Git](https://git-scm.com) e do [Node.js](https://nodejs.org/en/) instalados.
+
+Nas linhas de comando do seu terminal:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+# Clone este repositório
+$ git clone [https://github.com/pouskzin/izabelyAmerico-landing-page.git](https://github.com/pouskzin/izabelyAmerico-landing-page.git)
+
+# Acesse a pasta do projeto
+$ cd izabelyAmerico-landing-page
+
+# Instale as dependências
+$ npm install
+
+# Inicie o servidor de desenvolvimento
+$ npm run dev
 ```
+O servidor iniciará localmente na porta 3000. Acesse http://localhost:3000 no seu navegador para ver o projeto.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+📂 Estrutura e Configuração (siteConfig)
+O projeto foi desenhado para ser facilmente escalável e editável sem precisar alterar componentes estruturais profundos. Todo o conteúdo textual, URLs de imagens, links de redes sociais e preços de serviços estão centralizados no arquivo:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+src/config/siteConfig.ts
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Alterar qualquer valor neste arquivo reflete automaticamente e de forma segura em toda a Landing Page.
 
-## Learn More
+👨‍💻 Desenvolvido por
+PouskDev
 
-To learn more about Next.js, take a look at the following resources:
+Desenvolvedor focado em criar soluções web modernas, seguras e orientadas a resultados.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+💼 Portfólio: https://pouskdev.vercel.app
