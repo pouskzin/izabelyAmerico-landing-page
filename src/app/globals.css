@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 98%; /* #FAFAFA */
+    --foreground: 0 0% 16.5%; /* #2A2A2A */
+  }
+
+  body {
+    background-color: theme('colors.background');
+    color: theme('colors.text.DEFAULT');
+  }
+}
+
+@layer utilities {
+  .glass {
+    @apply bg-white/30 backdrop-blur-md border border-white/40 shadow-sm;
+  }
+}
